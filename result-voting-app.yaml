@@ -5,7 +5,7 @@ metadata:
   labels:
     name: result-app-pod
     app: demo-result-app
-specs:
+spec:
   containers:
     - name: result-app
       image: kodekloud/examplevotingtapp_result:v1
